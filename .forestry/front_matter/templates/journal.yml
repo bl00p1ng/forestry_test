@@ -7,6 +7,10 @@ fields:
   label: Title
   hidden: false
   type: text
+- name: dificultad
+  type: tag_list
+  default: []
+  label: Dificultad
 - type: textarea
   name: excerpt
   label: Excerpt
@@ -19,7 +23,3 @@ fields:
   type: datetime
   config:
     required: true
-- name: dificultad
-  type: tag_list
-  default: []
-  label: Dificultad
