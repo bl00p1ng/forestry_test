@@ -19,3 +19,7 @@ fields:
   type: datetime
   config:
     required: true
+- name: dificultad
+  type: tag_list
+  default: []
+  label: Dificultad
